@@ -1,0 +1,27 @@
+{
+    "dispositivo": "devnetsandboxiosxec8k.cisco.com",
+    "total_interfaces_activas": 3,
+    "interfaces": [
+        {
+            "nombre": "GigabitEthernet1",
+            "tipo": "iana-if-type:ethernetCsmacd",
+            "habilitada": true,
+            "ip": "10.10.20.148",
+            "mascara": "255.255.255.0"
+        },
+        {
+            "nombre": "Loopback1",
+            "tipo": "iana-if-type:softwareLoopback",
+            "habilitada": true,
+            "ip": "10.1.1.1",
+            "mascara": "255.255.255.0"
+        },
+        {
+            "nombre": "Loopback2",
+            "tipo": "iana-if-type:softwareLoopback",
+            "habilitada": true,
+            "ip": "10.2.1.1",
+            "mascara": "255.255.255.0"
+        }
+    ]
+}
